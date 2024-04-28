@@ -1,17 +1,26 @@
-# Welcome to MkDocs
+# Bienvenido a la Documentación de Mi Aplicación Web
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Esta documentación proporciona información sobre la estructura del proyecto, cómo configurar el entorno de desarrollo y cómo contribuir al desarrollo de la aplicación web.
 
-## Commands
+## Estructura del Proyecto
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- `main.py`: Archivo principal que contiene el código de la aplicación web.
+- `Dockerfile`: Archivo para configurar el entorno Docker de la aplicación.
+- `README.md`: Este archivo que proporciona información sobre el proyecto.
+- `requirements.txt`: Archivo que lista las dependencias del proyecto.
 
-## Project layout
+## Configuración del Entorno de Desarrollo
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+1. Clona este repositorio en tu máquina local.
+2. Instala las dependencias utilizando el archivo `requirements.txt`.
+3. Configura el entorno virtual (si es necesario).
+
+## Contribución
+
+¡Nos encantaría recibir tu contribución! Si deseas contribuir al proyecto, sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama para tu contribución: `git checkout -b feature/nueva-funcionalidad`.
+3. Haz tus cambios y realiza los commits: `git commit -am 'Agrega nueva funcionalidad'`.
+4. Haz push a tu rama: `git push origin feature/nueva-funcionalidad`.
+5. Crea un pull request en GitHub.
